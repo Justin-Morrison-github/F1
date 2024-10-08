@@ -1,0 +1,66 @@
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2024/1/results"
+    limit="30" offset="0" total="20">
+    <RaceTable season="2024" round="1">
+        <Race season="2024" round="1" url="https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix">
+            <RaceName>Bahrain Grand Prix</RaceName>
+            <Circuit circuitId="bahrain"
+                url="http://en.wikipedia.org/wiki/Bahrain_International_Circuit">
+                <CircuitName>Bahrain International Circuit</CircuitName>
+                <Location lat="26.0325" long="50.5106">
+                    <Locality>Sakhir</Locality>
+                    <Country>Bahrain</Country>
+                </Location>
+            </Circuit>
+            <Date>2024-03-02</Date>
+            <Time>15:00:00Z</Time>
+            <ResultsList>
+                <Result number="1" position="1" positionText="1" points="26">
+                    <Driver driverId="max_verstappen" code="VER"
+                        url="http://en.wikipedia.org/wiki/Max_Verstappen">
+                        <PermanentNumber>33</PermanentNumber>
+                        <GivenName>Max</GivenName>
+                        <FamilyName>Verstappen</FamilyName>
+                        <DateOfBirth>1997-09-30</DateOfBirth>
+                        <Nationality>Dutch</Nationality>
+                    </Driver>
+                    <Constructor constructorId="red_bull"
+                        url="http://en.wikipedia.org/wiki/Red_Bull_Racing">
+                        <Name>Red Bull</Name>
+                        <Nationality>Austrian</Nationality>
+                    </Constructor>
+                    <Grid>1</Grid>
+                    <Laps>57</Laps>
+                    <Status statusId="1">Finished</Status>
+                    <Time millis="5504742">1:31:44.742</Time>
+                    <FastestLap rank="1" lap="39">
+                        <Time>1:32.608</Time>
+                        <AverageSpeed units="kph">210.383</AverageSpeed>
+                    </FastestLap>
+                </Result>
+                <Result number="11" position="2" positionText="2" points="18">
+                    <Driver driverId="perez" code="PER"
+                        url="http://en.wikipedia.org/wiki/Sergio_P%C3%A9rez">
+                        <PermanentNumber>11</PermanentNumber>
+                        <GivenName>Sergio</GivenName>
+                        <FamilyName>Pérez</FamilyName>
+                        <DateOfBirth>1990-01-26</DateOfBirth>
+                        <Nationality>Mexican</Nationality>
+                    </Driver>
+                    <Constructor constructorId="red_bull"
+                        url="http://en.wikipedia.org/wiki/Red_Bull_Racing">
+                        <Name>Red Bull</Name>
+                        <Nationality>Austrian</Nationality>
+                    </Constructor>
+                    <Grid>5</Grid>
+                    <Laps>57</Laps>
+                    <Status statusId="1">Finished</Status>
+                    <Time millis="5527199">+22.457</Time>
+                    <FastestLap rank="4" lap="40">
+                        <Time>1:34.364</Time>
+                        <AverageSpeed units="kph">206.468</AverageSpeed>
+                    </FastestLap>
+                </Result>
+            </ResultsList>
+        </Race>
+    </RaceTable>
+</MRData>
